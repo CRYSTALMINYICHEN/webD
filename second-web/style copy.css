@@ -1,0 +1,73 @@
+nav ul{
+    text-decoration-line: none;
+    list-style-type: none;
+    float: right;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+p{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+body{
+    text-align: center;
+    background-color: #89916B;
+    background-image: url(_MG_0733%20copy.jpg);
+}
+.head{
+    text-align: center;
+    font-family: myFirstFont;
+    color: #FCFAF2;
+    font-size: 90px;
+}
+h2{
+    font-family: myFirstFont;
+    color:whitesmoke;
+    font-size: 30px;
+}
+.back{
+    text-align: center;
+    background-color: #999;
+    position: fixed;
+    padding-left: 50px;
+    padding-right: 50px;
+    bottom:0;
+    font-size: 50px;
+    font-family: myFirstFont;
+}
+#frame{
+    width: 900px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.flower{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #B5CAA0;
+    text-align: center;
+    width: 720px;
+    height: 481px;
+}
+#homeflower{
+    width: 404px;
+    height: 170px;
+}
+@font-face{
+    font-family:myFirstFont;
+    src: url(Banaue-Regular.woff);
+    font-weight:bold;
+}
