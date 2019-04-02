@@ -69,6 +69,17 @@ a{
     text-decoration-line: none;
     color: inherit;
 }
+ul {
+    list-style: none;
+}
+ul a {
+    margin-top: 0;
+    height: 0px;
+}
+h1 {
+    margin-top: 0px;
+    padding: 50px;
+}
 
 #about {
     position: relative;
@@ -125,12 +136,13 @@ a{
 }
 
 #abstract {
-    min-height: 800px;
+    min-height: 740px;
     padding-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: -1;
+    margin-bottom: 190px;
 }
 
 .container-articles {
@@ -152,28 +164,19 @@ p {
 #contact {
     font-size: 25px;
     margin-top: 150px;
+    padding-top: 300px;
     display: flex;
-    height: 700px;
+    height: 800px;
     justify-content: space-around;
 }
-
-ul {
-    list-style: none;
+#contact-part {
+    display: flex;
+    flex-direction: row;
 }
 
 #bottom-illustrator {
-    width: 400px;
+    width: 300px;
     height: auto;
-}
-
-h1 {
-    margin-top: 0px;
-    padding: 50px;
-}
-
-ul a {
-    margin-top: 0;
-    height: 0px;
 }
 
 #visibility {
@@ -266,7 +269,7 @@ ul a {
     ul {
         list-style: none;
     }
-
+/*list that has parent nav*/
     .nav > li {
         float: right;
         margin-right: 70px;
@@ -296,8 +299,9 @@ ul a {
         display: none;
     }
 
-
-    .drop-down-content li:hover a {}
+    .drop-down-content li:hover a {
+        font-size: 22px;
+    }
 
     .nav .drop-down:hover .drop-down-content {
         display: block;
@@ -325,7 +329,7 @@ ul a {
         justify-content: space-around;
     }
     #bottom-illustrator {
-    width: 300px;
+    width: 250px;
     height: auto;
 }
     #slogan{
