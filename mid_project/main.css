@@ -300,7 +300,7 @@ p {
     }
 
     .drop-down-content li:hover a {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .nav .drop-down:hover .drop-down-content {
