@@ -328,4 +328,15 @@ ul a {
     width: 300px;
     height: auto;
 }
+    #slogan{
+        justify-content: center;
+    }
+}
+@media (max-width:1400px){
+    #title{
+    font-size: 90px;
+}
+    #slogan{
+        justify-content: flex-start;
+    }
 }
