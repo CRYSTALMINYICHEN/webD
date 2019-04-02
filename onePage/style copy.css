@@ -1,3 +1,8 @@
+body{
+    display: block;
+    padding-left: 20px;
+    
+}
 nav{
     margin-top: 0px;
     text-align: center;
@@ -35,7 +40,7 @@ body{
 #home{
     height: 700px;
     padding:80px;
-    background-image: url(_MG_0733%20copy%203.jpg);
+    background-image: url(_MG_0733%20copy%204.jpg);
 }
 
 #about{
@@ -59,8 +64,7 @@ body{
     height: 700px;
     padding: 80px;
 }
-#leaf
-{
+#leaf{
     height: 400px;
     position: relative;
 }
