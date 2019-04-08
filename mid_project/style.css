@@ -8,29 +8,32 @@ body {
     margin: 0;
     font-family: gotham;
 }
+
 @font-face {
     font-family: gotham;
     src: url(Gotham-XLight.ttf);
 }
-section{
+
+section {
     padding-top: 130px;
     width: 100%;
     margin-bottom: 80px;
 }
 
-#bookcover{
+#bookcover {
     height: 100%;
     width: auto;
 }
-#title{
+
+#title {
     font-weight: bold;
     font-size: 20px;
 }
-.card{
+
+.card {
     display: flex;
-    flex-direction:row; 
+    flex-direction: row;
     justify-content: space-between;
-    
     padding: 28px;
     display: flex;
     width: 97%;
@@ -38,22 +41,27 @@ section{
     border-radius: 10px;
     margin-bottom: 45px;
 }
-#fourtoeight .card{
-    background-color:rgba(161,200,219,0.1);
+
+#fourtoeight .card {
+    background-color: rgba(102, 0, 204, 0.1);
 }
-#infocontainer{
+
+#infocontainer {
     width: 80%;
     display: flex;
     flex-direction: column;
+    overflow: scroll;
+    padding-right: 20px;
 }
 
-#eighttoten .card{
-    background-color:rgba(255,191,191,0.2);
+#eighttoten .card {
+    background-color: rgba(255, 191, 191, 0.2);
 }
 
-#greaterthanten .card{
-    background-color:rgba(66,77,140,0.1);
+#greaterthanten .card {
+    background-color: rgba(66, 77, 140, 0.1);
 }
+
 .container-header {
     position: fixed;
     display: flex;
@@ -76,6 +84,7 @@ section{
     justify-content: flex-end;
     background-color: white;
 }
+
 nav {
     margin-top: 0px;
     text-align: center;
@@ -104,24 +113,29 @@ nav a {
 a:hover {
     color: #F56C6C;
 }
-a{
+
+a {
     text-decoration-line: none;
     color: inherit;
+    
 }
+
 p {
     margin-bottom: 0px;
     padding: 0px 0px 0px 22px;
     width: 85%;
     font-size: 16px;
-    overflow: scroll;
 }
+
 ul {
     list-style: none;
 }
+
 ul a {
     margin-top: 0;
     height: 0px;
 }
+
 #visibility {
     visibility: hidden;
 }
@@ -133,13 +147,14 @@ ul a {
 @media (max-width: 1000px) {
     body {
         display: block;
-        padding-left: 0%;
+        padding-left: 10%;
         padding-right: 10%;
     }
 
     p {
-        width: 400px;
+        width: 350px;
     }
+    
 
     .container-header {
         position: fixed;
@@ -207,5 +222,30 @@ ul a {
         padding-right: 10%;
         justify-content: space-around;
     }
-    
+
+}
+@media (max-width: 780px){
+    .card{
+        height: 120px;
+    }
+   p {
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 22px;
+    width: 90%;
+    font-size: 12px;
+    margin-top: 5px;
+} 
+    #bookcover {
+    height: 100%;
+    width: auto;
+}
+    #title {
+    font-weight: bold;
+    font-size: 13px;
+}
+    section {
+    padding-top: 130px;
+    width: 100%;
+    margin-bottom: 10px;
+}
 }
