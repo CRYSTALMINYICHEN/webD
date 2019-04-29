@@ -1,0 +1,7 @@
+#decrator{
+    position: absolute;
+    width:350px;
+    left: 170px;
+    top: 90px;
+    transform: rotate(35deg);
+}
