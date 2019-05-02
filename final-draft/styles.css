@@ -1,0 +1,119 @@
+body {
+    background-image: url(colored-2.jpg);
+}
+p{
+    font-family: gotham;
+}
+@font-face {
+    font-family: gotham;
+    src: url(Gotham-XLight.ttf);
+}
+@font-face {
+    font-family: brush;
+    src: url(LeviReBrushed_copy.ttf);
+}
+#overlay {
+    display: none;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#404959;
+    opacity:0.9;
+    z-index:10;
+}
+
+#bookshelf {
+    display: grid;
+    width: 65%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    margin: 7% auto 7% auto;
+    padding: 10px;
+    grid-gap: 35px;
+    perspective: 1000px;
+}
+
+.bookcover {
+    height: 200px;
+    width: auto;
+    transform: rotateY(25deg);
+    transition: 1s;
+
+}
+
+.bookcover:hover {
+    transform: rotate(0);
+    transition: 1s;
+}
+.amazingcard{
+    display: none;
+    z-index: 1001;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(colored-1.jpg);
+    padding: 28px;
+    width: 800px;
+    height: 420px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+#infocontainer {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+    padding-right: 20%;
+}
+#title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.close{
+    font-family: brush;
+    font-weight: 100;
+    font-size: 50px;
+    border-style: dashed;
+    width:50px;
+    height: 50px;
+}
+#home{
+    text-decoration: none;
+    font-family: brush;
+    color: black;
+    font-size: 80px;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+@media (max-width: 820px){
+    #bookshelf {
+    display: grid;
+    width: 85%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin: 7% auto 7% auto;
+    padding: 10px;
+    grid-gap: 3px;
+    perspective: 1000px;
+}
+}
+@media (max-width: 500px){
+    #bookshelf{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 16.7%;
+        margin: 25px;
+        width: 90%;
+    }
+}

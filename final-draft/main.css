@@ -1,0 +1,358 @@
+body {
+    display: block;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: url(whitepaper.png);
+    color: #24315B;
+    font-size: 20px;
+    margin: 0;
+    font-family: gotham;
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(Gotham-XLight.ttf);
+}
+@font-face {
+    font-family: brush;
+    src: url(LeviReBrushed_copy.ttf);
+}
+.main-button{
+    font-family: brush;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.container-header {
+    position: fixed;
+    display: flex;
+    z-index: 1;
+}
+.top-right{
+    position: fixed;
+    top: 50px;
+    right: 200px;
+}
+.logo {
+    text-decoration-line: none;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    color: #24315B;
+    position: absolute;
+    left: 150px;
+    font-family: brush;
+    font-size: 30px;
+    font-weight: bold;
+    height: 62px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+nav {
+    margin-top: 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    text-decoration-line: none;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+nav a {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-radius: 3px;
+    color: #24315B;
+    text-decoration-line: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+a:hover {
+    color: #F56C6C;
+}
+a{
+    text-decoration-line: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+ul a {
+    margin-top: 0;
+    height: 0px;
+}
+h1 {
+    margin-top: 0px;
+    padding: 50px;
+}
+
+#about {
+    position: relative;
+    left: -150px;
+    padding-top: 170px;
+    height: 700px;
+    width: 130%;
+    margin-bottom: 120px;
+}
+#title{
+    color: white;
+    margin: 0px;
+    font-size: 110px;
+    font-weight: bold;
+    width: 100%;
+}
+#slogan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 90%;
+    min-width: 760px;
+}
+#author{
+    width: 100%;
+    color: white;
+    font-size: 32px;
+}
+#hands-picture {
+    position: relative;
+    top: -650px;
+    width: 100%;
+    height: auto;
+    min-width: 750px;
+    z-index: -1;
+}
+
+#news {
+    padding-left: 0px;
+    display: flex;
+    height: 800px;
+    padding-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    border-left-style: solid;
+    border-left-width: thin;
+}
+
+#parents-voter {
+    width: 600px;
+    height: auto;
+}
+
+#abstract {
+    min-height: 740px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+    margin-bottom: 190px;
+}
+
+.container-articles {
+    display: flex;
+    width: 100%;
+    padding-right: 40px;
+    border-right-style: solid;
+    border-right-width: thin;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+p {
+    border-spacing: inherit;
+    padding: 0px;
+    width: 90%;
+}
+
+#contact {
+    font-size: 25px;
+    margin-top: 150px;
+    padding-top: 300px;
+    display: flex;
+    height: 800px;
+    justify-content: space-around;
+}
+#contact-part {
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom-illustrator {
+    width: 300px;
+    height: auto;
+}
+
+#visibility {
+    visibility: hidden;
+}
+
+.nav-bar {
+    border-bottom-width: medium;
+}
+
+#box {
+    width: 400px;
+    height: 240px;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+#box div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 75%;
+    background: .#fff;
+    backface-visibility: hidden;
+    transition: all 2s;
+}
+
+#box .front {
+    display: flex;
+    justify-content: center;
+    align-items: Center;
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+    background: #F5B7B7;
+    border-radius: 30px;
+}
+
+#box .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+    background: #9FC7DB;
+    border-radius: 30px;
+    transform: rotateY(-180deg);
+}
+
+#box:hover .front {
+    transform: rotateY(-180deg);
+}
+
+#box:hover .back {
+    transform: rotateY(-360deg);
+}
+
+@media (max-width: 1000px) {
+    body {
+        display: block;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    p {
+        width: 400px;
+    }
+
+    .container-header {
+        position: fixed;
+        display: flex;
+    }
+
+    .logo {
+        color: #24315B;
+        position: absolute;
+        left: 20px;
+        font-size: 28px;
+        height: 79px;
+    }
+
+    #visibility {
+        visibility: visible;
+        background-color: none;
+    }
+
+
+    ul {
+        list-style: none;
+    }
+/*list that has parent nav*/
+    .nav > li {
+        float: right;
+        margin-right: 70px;
+    }
+
+    ul a {
+        visibility: visible;
+        display: block;
+        text-decoration: none;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        padding-bottom: 15px;
+        line-height: 50px;
+        color: #24315B;
+        opacity: 1;
+        background-color: white;
+    }
+
+
+    .drop-down li a {
+        font-size: 14px;
+    }
+
+    .drop-down-content {
+        padding: 0;
+        display: none;
+    }
+
+    .drop-down-content li:hover a {
+        font-size: 18px;
+    }
+
+    .nav .drop-down:hover .drop-down-content {
+        display: block;
+    }
+
+    #news {
+        padding-top: 20px;
+    }
+
+    #box {
+        width: 350px;
+        height: 200px;
+        position: relative;
+        margin-bottom: 35px;
+    }
+
+    #abstract {
+        padding-top: 30px;
+    }
+
+    .container-articles {
+        width: 400px;
+        padding-left: 10%;
+        padding-right: 10%;
+        justify-content: space-around;
+    }
+    #bottom-illustrator {
+    width: 250px;
+    height: auto;
+}
+    #slogan{
+        justify-content: center;
+    }
+}
+@media (max-width:1400px){
+    #title{
+    font-size: 90px;
+}
+    #slogan{
+        justify-content: flex-start;
+    }
+}
