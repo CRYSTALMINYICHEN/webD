@@ -125,14 +125,18 @@
     }
 }
 @media(max-width:600px){
+    .resp-sharing-button__icon svg {
+        width: 1em;
+        height: 1em;
+    }
     .resp-sharing-button {
-        top: 18%;
+        top: 12%;
     }
     .resp-sharing-button--twitter{
-        right: 30%;
+        right: 110px;
     }
     .resp-sharing-button--facebook{
-        right: 20%;
+        right: 160px;
     }
     
 }
