@@ -17,6 +17,7 @@ body {
     font-family: brush;
     src: url(LeviReBrushed_copy.ttf);
 }
+
 .container-header {
     position: relative;
     top: -2px;
@@ -39,58 +40,67 @@ body {
 }
 
 #wrap {
-  width: 600px;
+    width: 600px;
     position: absolute;
     right: 140px;
-  padding: 0px;
+    padding: 0px;
 }
 
 #content_view {
-  padding: 10px;
+    padding: 10px;
 }
+
 #content_view li {
-  padding: 10px 0;
-  line-height: 22px;
+    padding: 10px 0;
+    line-height: 22px;
 }
+
 #content_view #userName {
-  height: 30px;
-  width: 520px;
-  
-  vertical-align: top;
+    height: 30px;
+    width: 520px;
+    font-size: 22px;
+    vertical-align: top;
 }
+
 #content_view #content {
-  width: 520px;
-  height: 100px;
-  font-size: 16px;
-  vertical-align: top;
+    width: 520px;
+    height: 100px;
+    font-size: 22px;
+    vertical-align: top;
 }
+
 #content_view #submit {
-  width: 100px;
-  height: 30px;
-  border: 1px solid gray;
-  background: white;
-  position: relative;
-  left: 48px;
-  
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    font-size: 39px;
+    font-family: brush;
+    position: relative;
+    left: 4px;
 }
+
 #comment_list h2 {
-  margin-top: 10px;
+    margin-top: 0px;
 }
+
 #comment_list h3 {
-  padding: 10px;
-  background: mistyrose;
+    padding: 0px;
+    background: mistyrose;
 }
+
 #comment_list p {
-  padding: 10px;
- 
-  text-indent: 2em;
+    padding: 10px;
+    font-size: 20px;
+    text-indent: 2em;
 }
+
 #comment_list a {
-  text-decoration: none;
-  float: right;
-  top: 20px;
+    text-decoration: none;
+    float: right;
+    top: 20px;
 }
-li{
+
+li {
     font-family: fantasy;
     font-size: 28px;
 }

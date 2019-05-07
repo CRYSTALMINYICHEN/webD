@@ -9,7 +9,7 @@ window.onload = function() {
     var comment_P = content.value;
   
     if (name == "" || comment_P == "") {
-      alert("Enter your nickname and comments plz~");
+      alert("enter your nickname and comments~");
       return;
     }
   
